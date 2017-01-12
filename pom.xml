@@ -13,22 +13,7 @@
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
     </properties>
-	
-    <repositories>
-		
-        <repository>
-            <id>prime-repo</id>
-            <name>Prime Repo</name>
-            <url>http://repository.primefaces.org</url>
-        </repository> 		
-        
-        <repository>
-            <id>maven-repo</id>
-            <name>maven rep</name>
-            <url>https://repo1.maven.org/maven2/</url>
-        </repository>
-		
-    </repositories>
+
     
     <dependencies>
         <dependency>
@@ -37,12 +22,7 @@
             <version>7.0</version>
             <scope>provided</scope>
         </dependency>
-		
-        <dependency>
-            <groupId>org.primefaces</groupId>
-            <artifactId>primefaces</artifactId>
-            <version>6.0</version>
-        </dependency>
+        
     </dependencies>
 
     <profiles>
