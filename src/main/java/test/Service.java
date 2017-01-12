@@ -22,7 +22,7 @@ public class Service {
     @GET
     @Path("/find")
     @Produces(MediaType.TEXT_PLAIN)
-    public Response find(@PathParam("code") String code) {
+    public Response find() {
         return Response.ok("hola mundo").build();
     }
     
