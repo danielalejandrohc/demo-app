@@ -21,6 +21,12 @@
             <name>Prime Repo</name>
             <url>http://repository.primefaces.org</url>
         </repository> 		
+        
+        <repository>
+            <id>maven-repo</id>
+            <name>maven rep</name>
+            <url>https://repo1.maven.org/maven2/</url>
+        </repository>
 		
     </repositories>
     
