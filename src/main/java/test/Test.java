@@ -21,7 +21,7 @@ public class Test {
 
     @PostConstruct
     public void init() {
-        msg = "demo ...";
+        msg = "demo ..." + System.getenv("MYSQL_DATABASE") ;
     }
     
     public String getMsg() {
