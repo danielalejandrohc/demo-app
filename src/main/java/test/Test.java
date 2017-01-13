@@ -21,7 +21,7 @@ public class Test {
 
     @PostConstruct
     public void init() {
-        msg = "demo ..." + System.getenv("MYSQL_DATABASE") ;
+        msg = "demo ..." + System.getenv("OPENSHIFT_MYSQL_DATABASE") ;
     }
     
     public String getMsg() {
